@@ -80,5 +80,5 @@ def rsaSteps():
     print(encrypted)
     print("Odszyfrowana: ", decrypt(e,n,encrypted))
 
-rsaSteps()
+#rsaSteps()
 #trzeba dodać walidację do wprowadzania liczb i dodawanie losowe p,q
