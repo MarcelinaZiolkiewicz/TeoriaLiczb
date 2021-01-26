@@ -1,0 +1,2 @@
+# TeoriaLiczb
+Projekt zaliczeniowy
