@@ -1,6 +1,14 @@
 import rsa
 
-#Python 3.8.3
+
+def primeInRange():
+    count = 0
+
+    for prime in range(1999900000, 2000099990):
+        if rsa.checkPrime(prime):
+                count += 1
+                print("%d." %(count), prime)
+
 
 def menu():
     while 1:
@@ -17,6 +25,7 @@ def menu():
 
         if wyb == 1:
             print("-> Liczby pierwsze w przedziale to: ")
+            primeInRange()
         
         elif wyb == 2:
             print("-> Test Fermata")
